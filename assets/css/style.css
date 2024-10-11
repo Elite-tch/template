@@ -3745,16 +3745,16 @@ select:visited {
 }
 .lg-demo-1-item-ss {
   margin-bottom: 24px;
-  height: 377px;
+  height: 250px;
 }
 @media (max-width: 767px) {
   .lg-demo-1-item-ss {
-    height: 377px;
+    height: 250px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .lg-demo-1-item-ss {
-    height: 460px;
+    height: 360px;
   }
 }
 .lg-demo-1-item-ss::after {
@@ -3818,13 +3818,13 @@ select:visited {
   position: relative;
   z-index: 1;
 }
-.lg-demo-1-item:hover .lg-demo-1-item-ss::after {
+.lg-demo-1-item .lg-demo-1-item-ss::after {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   -webkit-transition-delay: 0;
           transition-delay: 0;
 }
-.lg-demo-1-item:hover .lg-demo-1-item-btn {
+.lg-demo-1-item .lg-demo-1-item-btn {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   -webkit-transition-delay: 0.3s;
